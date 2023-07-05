@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda',sans-serif;
+    font-weight: 500;
+}
+.container{
+    background-color: black;
+    padding:10px 30px
+   
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:20px;
+    color:#fff;
+    font-size:18px;
+    list-style-type: none;
+    font-weight: 300;
+    
+  
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color:#fff;
+ 
+}
+@media screen and (max-width:768px){
+    .nav-items{
+        flex-direction: column;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+}
